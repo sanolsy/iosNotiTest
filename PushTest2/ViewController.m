@@ -7,8 +7,11 @@
 //
 
 #import "ViewController.h"
+#import "AppDelegate.h"
+
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UILabel *myLabel;
 
 @end
 
@@ -17,6 +20,22 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    [[NSNotificationCenter defaultCenter] addObserver:self
+                                             selector:@selector(changeYellow:)
+                                                 name:@"YELLOW"
+                                               object:nil];
+}
+
+- (void)changeYellow:(NSNotification*)noti{
+    [self.view setBackgroundColor:[UIColor yellowColor]];
+    
+    _myLabel.text = [noti.userInfo objectForKey:@"sendMsg"];
+}
+
+-(void)viewWillAppear:(BOOL)animated {
+//    AppDelegate *appDelegate = [UIApplication sharedApplication].delegate;
+//    [self.view setBackgroundColor:appDelegate.backColor];
 }
 
 - (void)didReceiveMemoryWarning {

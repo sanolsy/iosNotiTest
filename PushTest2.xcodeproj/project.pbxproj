@@ -13,6 +13,11 @@
 		C3C0BA761D17DA3800DE5C99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3C0BA741D17DA3800DE5C99 /* Main.storyboard */; };
 		C3C0BA781D17DA3800DE5C99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3C0BA771D17DA3800DE5C99 /* Assets.xcassets */; };
 		C3C0BA7B1D17DA3800DE5C99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3C0BA791D17DA3800DE5C99 /* LaunchScreen.storyboard */; };
+		C3C0BA841D17DDD700DE5C99 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3C0BA831D17DDD700DE5C99 /* SecondViewController.m */; };
+		C3C0BA871D17DE7B00DE5C99 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3C0BA861D17DE7B00DE5C99 /* ThirdViewController.m */; };
+		C3DED6821D18CA9C0039ED12 /* Red30ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3DED6811D18CA9C0039ED12 /* Red30ViewController.m */; };
+		C3DED6851D18D0110039ED12 /* Red50ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3DED6841D18D0110039ED12 /* Red50ViewController.m */; };
+		C3DED6881D18D01D0039ED12 /* Red70ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3DED6871D18D01D0039ED12 /* Red70ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,16 @@
 		C3C0BA771D17DA3800DE5C99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C3C0BA7A1D17DA3800DE5C99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C3C0BA7C1D17DA3800DE5C99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3C0BA821D17DDD700DE5C99 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		C3C0BA831D17DDD700DE5C99 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		C3C0BA851D17DE7B00DE5C99 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		C3C0BA861D17DE7B00DE5C99 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		C3DED6801D18CA9C0039ED12 /* Red30ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Red30ViewController.h; sourceTree = "<group>"; };
+		C3DED6811D18CA9C0039ED12 /* Red30ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Red30ViewController.m; sourceTree = "<group>"; };
+		C3DED6831D18D0110039ED12 /* Red50ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Red50ViewController.h; sourceTree = "<group>"; };
+		C3DED6841D18D0110039ED12 /* Red50ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Red50ViewController.m; sourceTree = "<group>"; };
+		C3DED6861D18D01D0039ED12 /* Red70ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Red70ViewController.h; sourceTree = "<group>"; };
+		C3DED6871D18D01D0039ED12 /* Red70ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Red70ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +77,16 @@
 				C3C0BA6F1D17DA3800DE5C99 /* AppDelegate.m */,
 				C3C0BA711D17DA3800DE5C99 /* ViewController.h */,
 				C3C0BA721D17DA3800DE5C99 /* ViewController.m */,
+				C3C0BA821D17DDD700DE5C99 /* SecondViewController.h */,
+				C3C0BA831D17DDD700DE5C99 /* SecondViewController.m */,
+				C3C0BA851D17DE7B00DE5C99 /* ThirdViewController.h */,
+				C3C0BA861D17DE7B00DE5C99 /* ThirdViewController.m */,
+				C3DED6801D18CA9C0039ED12 /* Red30ViewController.h */,
+				C3DED6811D18CA9C0039ED12 /* Red30ViewController.m */,
+				C3DED6831D18D0110039ED12 /* Red50ViewController.h */,
+				C3DED6841D18D0110039ED12 /* Red50ViewController.m */,
+				C3DED6861D18D01D0039ED12 /* Red70ViewController.h */,
+				C3DED6871D18D01D0039ED12 /* Red70ViewController.m */,
 				C3C0BA741D17DA3800DE5C99 /* Main.storyboard */,
 				C3C0BA771D17DA3800DE5C99 /* Assets.xcassets */,
 				C3C0BA791D17DA3800DE5C99 /* LaunchScreen.storyboard */,
@@ -149,9 +174,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3C0BA841D17DDD700DE5C99 /* SecondViewController.m in Sources */,
+				C3DED6881D18D01D0039ED12 /* Red70ViewController.m in Sources */,
+				C3C0BA871D17DE7B00DE5C99 /* ThirdViewController.m in Sources */,
+				C3DED6851D18D0110039ED12 /* Red50ViewController.m in Sources */,
 				C3C0BA731D17DA3800DE5C99 /* ViewController.m in Sources */,
 				C3C0BA701D17DA3800DE5C99 /* AppDelegate.m in Sources */,
 				C3C0BA6D1D17DA3800DE5C99 /* main.m in Sources */,
+				C3DED6821D18CA9C0039ED12 /* Red30ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +330,7 @@
 				C3C0BA811D17DA3800DE5C99 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
